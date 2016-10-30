@@ -1,7 +1,7 @@
 ## Simple Servlet
 
 ####Task:
-Write a simple servlet and JSP that prints "hello world" and takes parameters for GET request.
+Write a simple Java servlet and JSP script that prints "Hello, World!" and takes "World!" as a parameter for GET request.
 
 ####Given code:
 ```java
