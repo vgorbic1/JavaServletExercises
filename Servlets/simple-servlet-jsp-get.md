@@ -41,7 +41,7 @@ public class loginServlet extends HttpServlet {
 
 	  protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			      throws ServletException, IOException {
-        request.setAttribute("par", request.getParameter("par"));
+                    request.setAttribute("par", request.getParameter("par"));
 		    request.getRequestDispatcher("/hello.jsp").forward(request, response);
 	  }
 
